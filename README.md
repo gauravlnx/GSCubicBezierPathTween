@@ -37,7 +37,7 @@ BBCubicBezierPath *path = [[BBCubicBezierPath alloc] init];
 The tween is just as simple as Sparrow's SPTween class
 
 ```objective-c
-GSCubicBezierPathTween *bezTween = [BBCubicBezierPathTween tweenWithTarget:targetSprite
+GSCubicBezierPathTween *bezTween = [GSCubicBezierPathTween tweenWithTarget:targetSprite
                                                                       path:path
                                                                       time:5.0
                                                                 transition:SP_TRANSITION_EASE_IN_OUT];
